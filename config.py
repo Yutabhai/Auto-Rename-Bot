@@ -14,7 +14,7 @@ class Config(object):
     # other configs
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://telegra.ph/file/9e7bde3f54b24076ca226.jpg")
-    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '7179837246, 5633247844, 5661449934').split()]
+    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '7179837246, 5633247844, 5661449934, 5923512485').split()]
     FORCE_SUB   = os.environ.get("FORCE_SUB", "-1002098046056") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001997261016"))
     
